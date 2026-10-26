@@ -21,7 +21,7 @@ Cochez au fur et à mesure. Statut au moment de la livraison de cet atelier :
 | 5 | Afficher la dernière actualisation réussie | [x] Fait |
 | 6 | Préparer la démonstration (UI + scénarios) | [x] Fait |
 | Bonus | Signaler des données anciennes (> 10 s pour la démo) | [x] Fait |
-| 7 | Commit + push GitHub | [ ] À vérifier selon le remote |
+| 7 | Commit + push GitHub | [~] Commit local OK — push GitHub à faire (pas de remote projet) |
 
 ---
 
@@ -151,4 +151,4 @@ git commit -m "Fiabilise les actualisations de SensorHub"
 git push -u origin atelier/fiabilisation-actualisation
 ```
 
-**Où on en est :** voir la fin de cette session (dépôt initialisé dans `flutter_application_1` si besoin).
+**Où on en est :** dépôt Git initialisé dans `flutter_application_1`, branche `atelier/fiabilisation-actualisation`, commit `Fiabilise les actualisations de SensorHub`. Aucun remote GitHub projet n’était configuré : à pousser dès que tu as l’URL du repo (`git remote add origin …` puis `git push -u origin atelier/fiabilisation-actualisation`).
